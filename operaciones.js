@@ -42,4 +42,5 @@ console.log (onza + " onzas, equivalen a " + tonelada +" toneladas");
 for (var inicial = 2; total <= numero; inicial++)
 	total *= inicial;
 alert ("el total es " + total);
+console.log ("el total es " + total);
 }
