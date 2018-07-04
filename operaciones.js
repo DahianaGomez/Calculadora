@@ -8,7 +8,7 @@ if (operacion === "1") {
 
 	radio = prompt ('porfavor ingresar el radio');
 	altura = prompt ('porfavor ingresar la altura');
-	var volumen_cilindro = parseFloat (Math.PI * Math.pow (radio) * altura);
+	var volumen_cilindro = parseFloat (Math.PI * Math.pow (radio,2) * altura);
 	volumen_cilindro= Math.round (volumen_cilindro);
 
 	console.log ("el volumen del cilindro es " + volumen_cilindro);
