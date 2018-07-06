@@ -18,20 +18,20 @@ if (operacion === "1") {
 
 if(operacion === "2"){
 	
-	var convertidor = prompt ('de onzas a toneladas o toneladas a onzas?');
-	if (convertidor === "de toneladas a onzas") {
-		tonelda = prompt ('cuantas toneladas?');
+	var convertidor = prompt ('1:De onzas a toneladas 2:De toneladas a onzas?');
+	if (convertidor === "2") {
+		tonelada = prompt ('cuantas toneladas?');
 		var onza;
 		var tonelada;
-		onza = parseFloat (1*35274/tonelada);
-		onza= Math.round (onza);
+		onza = parseFloat (tonelada*35274/1);
+		
 		console.log (tonelada + " toneladas, equivalen a " + onza +" onzas");
 		alert (tonelada + " toneladas, equivalen a " + onza +" onzas");
 	}
-	if (convertidor === "de onzas a toneladas") {
+	if (convertidor === "1") {
 		onza = prompt ('cuantas onzas?');
-	tonelada = parseFloat (1* 0.0000283495 /onza);
-	tonelada = Math.round (tonelada);
+	tonelada = parseFloat (onza* 0.0000283495 /1);
+	
 console.log (onza + " onzas, equivalen a " + tonelada +" toneladas");
 		alert (onza + " onzas, equivalen a " + tonelada +" toneladas");
  }		
