@@ -1,9 +1,7 @@
 var operacion;
 var radio ;
 var altura;
-function operacion (operacion){
 
-}
 operacion = prompt ('1:volumen cilindro 2: convertidor 3:factorizacion');
 
 if (operacion === "1") {
@@ -50,5 +48,6 @@ console.log ("el total es " + total);
 var operacionUsuario = prompt ('quieres hacer otra operacion?');
  if (operacionUsuario === "si") {
  	
+location.reload();
 
  }
